@@ -2,7 +2,9 @@
 
 [![Contribute](aoc-mod.png)](https://che.openshift.io/f?url=https://github.com/che-incubator/advent-of-code-2020/tree/main)
 
-Solving the Advent of Code 2020 has never been easier. Click here :point_down: to start an IDE in your browser.
+Solving the Advent of Code 2020 has never been easier.
+
+Click here :point_down: to start an IDE in your browser.
 
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://che.openshift.io/f?url=https://github.com/che-incubator/advent-of-code-2020/tree/main)
 
