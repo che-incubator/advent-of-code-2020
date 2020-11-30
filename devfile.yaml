@@ -1,0 +1,3 @@
+apiVersion: 1.0.0
+metadata:
+  generateName: aoc2020
