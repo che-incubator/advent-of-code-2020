@@ -5,8 +5,7 @@ USER 0
 COPY --chown=0:0 entrypoint.sh /
 RUN mkdir -p /home/user && chgrp -R 0 /home && chmod -R g=u /etc/passwd /etc/group /home && chmod +x /entrypoint.sh
 
-# Install common terminal editors in container to aid development process
-COPY install-editor-tooling.sh /tmp
+# Install tools to aid development process
 RUN dnf install -y vim git && \
     dnf -y clean all
 
