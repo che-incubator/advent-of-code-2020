@@ -1,3 +1,7 @@
 apiVersion: 1.0.0
 metadata:
   generateName: aoc2020
+components:
+  - name: tools
+    type: dockerImage
+    image: quay.io/che-incubator/advent-of-code-2020:latest
