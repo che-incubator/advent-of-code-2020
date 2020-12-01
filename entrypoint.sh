@@ -26,4 +26,4 @@ if ! whoami &> /dev/null; then
   fi
 fi
 
-exec "$@"
+tail -f /dev/null
