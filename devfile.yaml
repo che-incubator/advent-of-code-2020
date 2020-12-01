@@ -6,3 +6,22 @@ components:
     type: dockerimage
     image: quay.io/che-incubator/advent-of-code-2020:latest
     memoryLimit: 512Mi
+    mountSources: true
+  - alias: go-plugin
+    type: chePlugin
+    id: golang/go/latest
+    memoryLimit: 512Mi
+    preferences:
+      go.lintTool: golangci-lint
+      go.useLanguageServer: true
+      go.lintFlags: '--fast'
+    env:
+      - value: auto
+        name: GO111MODULE
+commands:
+  - name: day-01-solution
+    actions:
+      - type: exec
+        component: tools
+        workdir: '${CHE_PROJECTS_ROOT}/advent-of-code-2020/day-01'
+        command: go run day-01.go
