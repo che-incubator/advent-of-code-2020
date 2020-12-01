@@ -14,5 +14,3 @@ ENV HOME=/home/user
 WORKDIR /projects
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD ["tail", "-f", "/dev/null"]
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
