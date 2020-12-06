@@ -49,3 +49,9 @@ commands:
         component: tools
         workdir: '${CHE_PROJECTS_ROOT}/advent-of-code-2020/day-05'
         command: go run day-05.go
+  - name: day-06-solution
+    actions:
+      - type: exec
+        component: tools
+        workdir: '${CHE_PROJECTS_ROOT}/advent-of-code-2020/day-06'
+        command: go run day-06.go
