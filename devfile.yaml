@@ -1,6 +1,12 @@
 apiVersion: 1.0.0
 metadata:
   generateName: aoc2020
+projects:
+  - name: advent-of-code-2020
+    source:
+      location: 'https://github.com/che-incubator/advent-of-code-2020.git'
+      type: git
+    clonePath: src/github.com/che-incubator/advent-of-code-2020
 components:
   - alias: tools
     type: dockerimage
