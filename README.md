@@ -8,7 +8,7 @@ Click here :point_down: to start an IDE in your browser.
 
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://che.openshift.io/f?url=https://github.com/che-incubator/advent-of-code-2020/tree/main)
 
-Getting stuck with today's puzzle? Come and chat with us :muscle: [here](https://mattermost.eclipse.org/eclipse/channels/eclipse-che-advent-of-code)
+Getting stuck with today's puzzle? Come and chat with us :muscle: [here](https://mattermost.eclipse.org/eclipse/channels/eclipse-che)
 
 ## The Advent of Code
 
