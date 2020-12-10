@@ -79,3 +79,9 @@ commands:
         component: tools
         workdir: '${CHE_PROJECTS_ROOT}/src/github.com/che-incubator/advent-of-code-2020/day-09'
         command: go run day-09.go
+  - name: day-10-solution
+    actions:
+      - type: exec
+        component: tools
+        workdir: '${CHE_PROJECTS_ROOT}/src/github.com/che-incubator/advent-of-code-2020/day-10'
+        command: go run day-10.go
