@@ -121,3 +121,9 @@ commands:
         component: tools
         workdir: '${CHE_PROJECTS_ROOT}/src/github.com/che-incubator/advent-of-code-2020/day-16'
         command: go run day-16.go
+  - name: day-18-solution
+    actions:
+      - type: exec
+        component: tools
+        workdir: '${CHE_PROJECTS_ROOT}/src/github.com/che-incubator/advent-of-code-2020/day-18'
+        command: go run day-18.go
