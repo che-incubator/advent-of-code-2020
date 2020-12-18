@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	input := []int{8, 11, 0, 19, 1, 2 }
+	input := []int{8, 11, 0, 19, 1, 2}
 
 	// Part 1
-	game(input,  2020)
+	game(input, 2020)
 
 	// Part 2
 	game(input, 30000000)
